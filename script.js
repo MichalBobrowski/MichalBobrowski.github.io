@@ -7,7 +7,7 @@ $(document).ready(function() {
   var availableBoards = {};
   var availableTasks = {};
 
-  // init aaaa
+  // init aaaaa
 
   getAllTasks();
 

@@ -127,7 +127,7 @@ $(document).ready(function() {
     var taskTitle = $(this).find('[name="title"]').val();
     var taskContent = $(this).find('[name="content"]').val();
 
-    var requestUrl = apiRoot + 'tasks';
+    var requestUrl = apiRoot + 'task';
 
     $.ajax({
       url: requestUrl,
